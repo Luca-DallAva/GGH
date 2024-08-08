@@ -2,7 +2,7 @@
 Toy implementation in Rust of the GGH protocol as in [Hoffstein, Pipher, Silverman - An introduction to mathematical cryptography (2nd)](https://link.springer.com/book/10.1007/978-0-387-77993-5), §7.8 The GGH Public Key Cryptosystem.
 
 ## Guide:
-All the code is based on the [`nalgebra´](https://docs.rs/nalgebra/latest/nalgebra/) crate. Moreover,
+All the code is based on the [`nalgebra`](https://docs.rs/nalgebra/latest/nalgebra/) crate. Moreover,
 - 'babai.rs' contains an implementation of Babai's algorithm as well as Hadamard ratio (for the basis consists of columns of a matrix);
 - 'rand_basis.rs' produces a random basis of ZZ^n;
 - 'rand_unitary_zzmatrix.rs' contains an implementation for random unitary matrices with integer entries. Notice that we need some control on the determinant as floating point arithmetic seems to be annoying with ['nalgebra'](https://docs.rs/nalgebra/latest/nalgebra/);
