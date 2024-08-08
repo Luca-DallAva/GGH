@@ -1,0 +1,37 @@
+Example
+------------------------------------------------------------------------------------
+Please insert the key dimension: 3
+Enter the integer elements of the vector separated by spaces: 86 89 102
+Public key
+
+  ┌                               ┐
+  │    827459   -571047   7744129 │
+  │  -1595492   1100974 -14932987 │
+  │    393168   -271386   3679201 │
+  └                               ┘
+
+
+Public key Hadamard ratio
+0.000004662233590097513
+Original message: 
+  ┌     ┐
+  │  86 │
+  │  89 │
+  │ 102 │
+  └     ┘
+
+
+Encrypted message: 
+  ┌             ┐
+  │   810239448 │
+  │ -1562390302 │
+  │   384937594 │
+  └             ┘
+
+
+Decrypted message: 
+  ┌     ┐
+  │  86 │
+  │  89 │
+  │ 102 │
+  └     ┘
