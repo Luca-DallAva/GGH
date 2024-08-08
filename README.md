@@ -1,5 +1,5 @@
 # GGH
-Toy implementation in Rust of the GGH protocol as in Hoffstein, Pipher, Silverman - An introduction to mathematical cryptography (2nd), §7.8 The GGH Public Key Cryptosystem.
+Toy implementation in Rust of the GGH protocol as in [Hoffstein, Pipher, Silverman - An introduction to mathematical cryptography (2nd)](https://link.springer.com/book/10.1007/978-0-387-77993-5), §7.8 The GGH Public Key Cryptosystem.
 
 ## Guide:
 All the code is based on the nalgebra crate. Moreover,
